@@ -2,33 +2,51 @@
   background-color: Crimson;
   color: White;
   font-size: 30px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  background-color: Dimgray;
+  color: White;
+  height: 35px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
 }
 
 .center {
   display: flex;
   flex-direction: row;
-
+  justify-content: space-between;
 }
-
-.links {
-  background-color: DimGray;
-  color: White;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
 .main-block {
-  display:flex
+  padding: 30px;
+  width: 1000px;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .side-pics {
+  font-weight: bold;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 75px;
+  background-color:Dimgray;
+  color:White;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
