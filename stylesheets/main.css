@@ -1,0 +1,34 @@
+.banner {
+  background-color: Crimson;
+  color: White;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.links {
+  background-color: DimGray;
+  color: White;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.main-block {
+  display:flex
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.side-pics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
